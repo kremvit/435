@@ -9,7 +9,7 @@
   root.replaceChildren(back);
 
   if (!item) {
-    document.title = 'Новину не знайдено — 435 дивізіон';
+    document.title = 'Новину не знайдено — 534 дивізіон';
     const message = document.createElement('section');
     message.className = 'article-not-found';
     const title = document.createElement('h1');
@@ -21,7 +21,7 @@
     return;
   }
 
-  document.title = `${item.title} — 435 дивізіон`;
+  document.title = `${item.title} — 534 дивізіон`;
   const article = document.createElement('article');
   article.className = 'article-content';
   const meta = document.createElement('div');
